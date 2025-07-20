@@ -1,0 +1,23 @@
+.breadcrumb {
+    background-color: transparent;
+    padding-left: 0;
+  }
+  
+  .breadcrumb-item + .breadcrumb-item::before {
+    content: "→";  /* Use arrows or any other separator */
+  }
+  
+  .breadcrumb-item a {
+    color: #D7810A;
+    text-decoration: none;
+  }
+  
+  .breadcrumb-item a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  .breadcrumb-item.active {
+    color: #6c757d; /* Gray color for active breadcrumb */
+  }
+  
